@@ -1,0 +1,14 @@
+{
+	"Html-lang": "uk-UA",
+	"Site title": "Express-handlebars приклад",
+	"Main page": "Головна сторінка",
+	"Home": "Головна",
+	"About us": "Про нас",
+	"Users": "Користувачі",
+	"Posted by": "Опубліковано",
+	"on": "-",
+	"User `%s` not found": "Користувач `%s` не знайдений",
+	"Not Found": "Не знайдено",
+	"Page `%s` not found": "Сторінку `%s` не знайдено",
+	"Oh no! Something has gone wrong.": "Ой, лишенько! Щось пішло не так."
+}

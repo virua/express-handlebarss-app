@@ -1,0 +1,30 @@
+{
+  "name": "exp-hbs-app",
+  "description": "A Simple Website in Node.js with Express, Handlebars and translation.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Ihor Vispyanskiy",
+    "email": "virua@ukr.net"
+  },
+  "engines": [
+    "node >= 0.10.25"
+  ],
+  "dependencies": {
+    "express": "~4.14.0",
+    "monk": "~3.1.1",
+    "express-handlebars": "~3.0.0",
+    "path": "~0.12.7",
+    "config": "~1.21.0",
+    "i18n-2": "~0.6.3",
+    "helmet": "~2.1.2",
+    "node-datetime": "~1.0.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "start": "node app.js"
+  },
+  "devDependencies": {
+    "mocha": "~3.0.2",
+    "chai": "~3.5.0"
+  }
+}

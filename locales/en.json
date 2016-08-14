@@ -1,0 +1,13 @@
+{
+	"Html-lang": "en",
+	"Site title": "Express-handlebars example",
+	"Main page": "Main page",
+	"Home": "Home",
+	"About us": "About us",
+	"Users": "Users",
+	"Posted by": "Posted by",
+	"on": "on",
+	"User `%s` not found": "User `%s` not found",
+	"Not Found": "Not Found",
+	"Oh no! Something has gone wrong.": "Oh no! Something has gone wrong."
+}

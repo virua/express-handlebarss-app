@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="{{__ 'Html-lang'}}">
+  <head>
+    <meta charset="{{config 'app.charset2'}}">
+    <title>{{title}} | {{__ "Site title"}}</title>
+    <link rel="shortcut icon" href="/images/favicon.png">
+    <link rel="icon" href="/images/favicon.png">
+    <!-- <link rel="stylesheet" type="text/css" href="/stylesheets/reset.css"> -->
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+	<body>
+    <div class="container">
+      {{>lang}}
+      {{>header}}
+      {{>menu}}
+      <section class="content">
+        {{{ body }}}
+      </section>
+      {{>aside}}
+      {{>footer}}
+    </div>
+	</body>
+</html>

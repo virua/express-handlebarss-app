@@ -1,0 +1,12 @@
+<nav class="languages">
+  <ul>
+    {{#langs}}
+      {{#unless current}}
+        <li><a href="{{localeUrl '/' code}}">{{name}}</a></li>
+      {{else}}
+        <li><span>{{name}}</span></li>
+      {{/unless}}
+    {{/langs}}
+  </ul>
+  <hr>
+</nav>
