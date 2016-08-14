@@ -5,7 +5,7 @@ A Simple Website in Node.js with Express, Handlebars and translation.
 
 ## Features
 * Lightweight translation with JSON storage.
-* Clear localized URL's.
+* Clean localized URLs.
 * Handlebars view engine with layouts, partials and helpers.
 * Error handlers.
 
