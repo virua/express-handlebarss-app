@@ -14,6 +14,6 @@ A Simple Website in Node.js with Express, Handlebars and translation.
 * Make content translation.
 * Models. Add field `userId` for `content` document & take data from `user`.
 * Go to use Mongoose
-* Select Preprocessor: Sass / LESS / Stylus
+* Select preprocessor: Sass / LESS / Stylus
 * Tests
 * Debug
